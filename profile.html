@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Owner</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(255, 192, 203);" class="flex items-center justify-center min-h-screen">
+
+    <!-- Tombol Kembali -->
+    <div class="absolute top-4 left-4">
+        <button onclick="window.history.back()" class="text-white px-4 py-2 rounded hover:bg-blue-600">Kembali</button>
+    </div>
+
+    <!-- Container -->
+    <div class="w-full h-4/5 overflow-hidden flex justify-center">
+        <div class="max-w-5xl w-full flex items-center h-full">
+            
+            <!-- Informasi Owner -->
+            <div class="w-2/3 p-6">
+                <h2 class="text-4xl font-semibold text-gray-800">Eva Nurfarihah</h2>
+                <div class="mt-4 text-zinc-400 flex">
+                    <strong class="w-32">Alamat</strong> <span><strong class="w32 mr-2"> : </strong></span>  Jl. Kandang Perahu Gang Jati No.42, Cirebon 45135
+                </div>
+                <div class="mt-2 text-zinc-400 flex">
+                    <strong class="w-32">Status</strong> <span><strong class="w32 mr-2"> : </strong></span>  Menikah
+                </div>
+                <div class="mt-2 text-zinc-400 flex">
+                    <strong class="w-32">Pendidikan</strong> <span><strong class="w32 mr-2"> : </strong></span>  D1 Akuntansi
+                </div>
+                <div class="mt-2 text-zinc-400 flex">
+                    <strong class="w-32">Kontak</strong> <span><strong class="w32 mr-2"> : </strong></span>  0856-2437-8677
+                </div>
+            </div>
+
+            <!-- Foto Owner -->
+            <div class="w-auto p-6 flex justify-center">
+                <img class="w-56 h-56 border-4 border-gray-300 rounded-lg" src="gambar1.jpg" alt="Foto Owner">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
