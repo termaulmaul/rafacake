@@ -8570,7 +8570,7 @@
 
 		.bg-gradien-linear4,
 		.bg-gradient8 {
-			background: linear-gradient(to top left, rgba(169, 169, 169, 0.8), rgba(211, 211, 211, 0.8)), url(" ") center center no-repeat;
+			background: linear-gradient(to top left, rgb(255, 192, 203), rgb(255, 192, 203)), url(" ") center center no-repeat;
 			background-size: cover
 		}
 
@@ -12599,12 +12599,10 @@
 							<div class="kol-13">
 								<div class="box">
 									<div class="border-putih melengkung shadow-abuabu latar-putih">
-										<img id="productImageBolu" alt="produk" src="images/anekabolu1.png" />
-										<h5 class="tebal">Aneka Bolu</h5>
-										<p class="kecil">Nikmati kelembutan dan kelezatan Aneka Bolu kami, dibuat dengan
-											bahan-bahan berkualitas tinggi dan resep tradisional yang terjaga. Cocok
-											untuk menemani waktu santai Anda atau sebagai hidangan istimewa di setiap
-											acara.</p>
+										<img id="snackBoxImage" alt="produk" src="images/anekasnackbox1.png" />
+										<h5 class="tebal">Snack Box</h5>
+										<p class="kecil">Lengkapi acara Anda dengan Snack Box kami yang praktis dan mengenyangkan. 
+											Berisi aneka camilan lezat yang dikemas rapi, snack box ini sangat cocok untuk rapat, seminar, atau perayaan kecil.</p>
 										<hr />
 										<div class="group">
 											<div class="kol1">
@@ -12621,11 +12619,10 @@
 							<div class="kol-13">
 								<div class="box">
 									<div class="border-putih melengkung shadow-abuabu latar-putih">
-										<img id="productImageDessert" alt="produk" src="images/anekadessert1.jpg" />
-										<h5 class="tebal">Aneka Dessert</h5>
-										<p class="kecil">Ciptakan momen manis dengan Aneka Dessert kami yang menggoda
-											selera. Setiap gigitan adalah perpaduan sempurna antara rasa dan tekstur
-											yang memanjakan, ideal untuk penutup makan malam atau camilan kapan saja.
+										<img id="donatCustomImage" alt="produk" src="images/donatcustomfix.png" />
+										<h5 class="tebal">Donat Custom</h5>
+										<p class="kecil">Nikmati kelezatan Donat Custom kami yang bisa disesuaikan sesuai selera Anda. 
+											Pilih dari berbagai topping dan isian favorit untuk menciptakan donat unik yang sempurna untuk segala acara atau hadiah spesial.
 										</p>
 										<hr />
 										<div class="group">
@@ -12644,8 +12641,8 @@
 									<div class="border-putih melengkung shadow-abuabu latar-putih">
 										<img id="productImageRoti" alt="produk" src="images/anekaroti1.png" />
 										<h5 class="tebal">Aneka Roti</h5>
-										<p class="kecil">Rasakan keharuman dan kelezatan Aneka Roti kami yang baru
-											dipanggang setiap hari. Dari roti klasik hingga varian inovatif, kami
+										<p class="kecil">Rasakan keharuman dan kelezatan Aneka Roti yang baru
+											dipanggang. Dari roti klasik hingga varian inovatif, kami
 											hadirkan roti yang sempurna untuk sarapan, makan siang, atau menemani
 											secangkir kopi.</p>
 										<hr />
@@ -12660,52 +12657,17 @@
 									</div>
 								</div>
 							</div>
-							<script>
-								const imagesBolu = ["images/anekabolu1.png"];
-								let currentIndexBolu = 0;
-
-								function changeImageBolu() {
-									const imgElement = document.getElementById('productImageBolu');
-									currentIndexBolu = (currentIndexBolu + 1) % imagesBolu.length;
-									imgElement.src = imagesBolu[currentIndexBolu];
-								}
-
-								setInterval(changeImageBolu, 3000); // Ganti gambar setiap 3 detik
-
-								const imagesDessert = ["images/anekadessert1.jpg"];
-								let currentIndexDessert = 0;
-
-								function changeImageDessert() {
-									const imgElement = document.getElementById('productImageDessert');
-									currentIndexDessert = (currentIndexDessert + 1) % imagesDessert.length;
-									imgElement.src = imagesDessert[currentIndexDessert];
-								}
-
-								setInterval(changeImageDessert, 3000); // Ganti gambar setiap 3 detik
-
-								const imagesRoti = [
-									"images/anekaroti1.png"
-								];
-								let currentIndexRoti = 0;
-
-								function changeImageRoti() {
-									const imgElement = document.getElementById('productImageRoti');
-									currentIndexRoti = (currentIndexRoti + 1) % imagesRoti.length;
-									imgElement.src = imagesRoti[currentIndexRoti];
-								}
-
-								setInterval(changeImageRoti, 3000); // Ganti gambar setiap 3 detik
-							</script>
+							
 						</div>
 						<div class="konten tengah">
 							<div class="kol-13">
 								<div class="box">
 									<div class="border-putih melengkung shadow-abuabu latar-putih">
-										<img id="donatCustomImage" alt="produk" src="images/donatcustomfix.png" />
-										<h5 class="tebal">Donat Custom</h5>
-										<p class="kecil">Nikmati kelezatan Donat Custom kami yang bisa disesuaikan
-											sesuai selera Anda. Pilih dari berbagai topping dan isian favorit untuk
-											menciptakan donat unik yang sempurna untuk segala acara atau hadiah spesial.
+										<img id="donatCustomImage2" alt="produk" src="images/anekadonat.jpg" />
+										<h5 class="tebal">Donat Rafa</h5>
+										<p class="kecil">Nikmati kelezatan Donat Rafa kami yang terdiri dari banyak 
+											variant. Pilih dari berbagai topping dan isian favorit anda untuk
+											menyesuaikan keinginan dan mood anda.
 										</p>
 										<hr />
 										<div class="group">
@@ -12722,11 +12684,10 @@
 							<div class="kol-13">
 								<div class="box">
 									<div class="border-putih melengkung shadow-abuabu latar-putih">
-										<img id="kueUlangTahunImage" alt="produk" src="images/kueulangtahunfix.png" />
-										<h5 class="tebal">Aneka Kue Ulang Tahun</h5>
-										<p class="kecil">Rayakan momen spesial dengan Aneka Kue Ulang Tahun kami yang
-											dirancang dengan penuh cinta dan kreativitas. Pilihan rasa yang lezat dan
-											desain yang memukau akan menjadikan hari ulang tahun Anda lebih berkesan.
+										<img id="kueUlangTahunImage" alt="produk" src="images/anekadessert1.jpg" />
+										<h5 class="tebal">Aneka Dessert</h5>
+										<p class="kecil">Ciptakan momen manis dengan Aneka Dessert yang menggoda selera. 
+											Setiap gigitan adalah perpaduan sempurna antara rasa dan tekstur yang memanjakan lidah.
 										</p>
 										<hr />
 										<div class="group">
@@ -12743,10 +12704,12 @@
 							<div class="kol-13">
 								<div class="box">
 									<div class="border-putih melengkung shadow-abuabu latar-putih">
-										<img id="kueNampanImage" alt="produk" src="images/bentocake.jpg" />
-										<h5 class="tebal">Bento Cake</h5>
-										<p class="kecil">Bento Cake kami menawarkan pilihan cake lezat
-											dalam satu tampilan cantik. Merupakan kue tart mini berlapis krim berwarna-warni yang manis serta aneka hiasan canttik di atasnya"</p>
+										<img id="kueNampanImage" alt="produk" src="images/anekarotirafa.jpg" />
+										<h5 class="tebal">Roti Rafa</h5>
+										<p class="kecil">Rasakan keharuman dan kelezatan Aneka Roti rafa. 
+											tersedia roti klasik hingga varian inovatif, kami hadirkan roti yang sempurna untuk menemani secangkir kopi."
+
+										</p>
 										<hr />
 										<div class="group">
 											<div class="kol1">
@@ -12765,37 +12728,15 @@
 								<div class="kol-13">
 									<div class="box">
 										<div class="border-putih melengkung shadow-abuabu latar-putih">
-											<img id="rotiRafaImage" alt="produk" src="images/anekarotirafa.jpg" />
-											<h5 class="tebal">Roti Rafa</h5>
-											<p class="kecil">Roti Rafa kami adalah pilihan ideal untuk roti yang lezat
-												dan sehat. Dibuat dengan bahan-bahan terbaik dan dipanggang dengan
-												sempurna, roti ini cocok untuk menemani sarapan atau sebagai camilan di
-												sepanjang hari.</p>
+											<img id="rotiRafaImage" alt="produk" src="images/kueulangtahunfix.png" />
+											<h5 class="tebal">Kue Ulang Tahun</h5>
+											<p class="kecil">Rayakan momen spesial dengan Aneka Kue Ulang Tahun kami yang dirancang dengan penuh cinta dan kreativitas. 
+												Pilihan rasa yang lezat dan desain yang memukau akan menjadikan hari ulang tahun Anda lebih berkesan.</p>
 											<hr />
 											<div class="group">
 												<div class="kol1">
 													<a class="btn1 btn-hijau btn-kecil"
 														href="https://api.whatsapp.com/send?phone=6285624378677&amp;text=Hallo%20admin,%20saya%20ingin%20pesan%20Roti%20Rafa">
-														<i class="fa fa-whatsapp"></i> Beli Via Whatsapp
-													</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="kol-13">
-									<div class="box">
-										<div class="border-putih melengkung shadow-abuabu latar-putih">
-											<img id="snackBoxImage" alt="produk" src="images/anekasnackbox1.png" />
-											<h5 class="tebal">Snack Box</h5>
-											<p class="kecil">Lengkapi acara Anda dengan Snack Box kami yang praktis dan
-												mengenyangkan. Berisi aneka camilan lezat yang dikemas rapi, snack box
-												ini sangat cocok untuk rapat, seminar, atau perayaan kecil.</p>
-											<hr />
-											<div class="group">
-												<div class="kol1">
-													<a class="btn1 btn-hijau btn-kecil"
-														href="https://api.whatsapp.com/send?phone=6285624378677&amp;text=Hallo%20admin,%20saya%20ingin%20pesan%20Snack%20Box">
 														<i class="fa fa-whatsapp"></i> Beli Via Whatsapp
 													</a>
 												</div>
@@ -12824,28 +12765,46 @@
 										</div>
 									</div>
 								</div>
+								<div class="kol-13">
+									<div class="box">
+										<div class="border-putih melengkung shadow-abuabu latar-putih">
+											<img id="snackBoxImage" alt="produk" src="images/bentocake.jpg" />
+											<h5 class="tebal">Bento Cake</h5>
+											<p class="kecil">Bento Cake kami menawarkan pilihan cake lezat dalam satu tampilan cantik. 
+												Merupakan kue tart mini berlapis krim berwarna-warni yang manis serta aneka hiasan canttik di atasnya"</p>
+											<hr />
+											<div class="group">
+												<div class="kol1">
+													<a class="btn1 btn-hijau btn-kecil"
+														href="https://api.whatsapp.com/send?phone=6285624378677&amp;text=Hallo%20admin,%20saya%20ingin%20pesan%20Snack%20Box">
+														<i class="fa fa-whatsapp"></i> Beli Via Whatsapp
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="kol-13">
+									<div class="box">
+										<div class="border-putih melengkung shadow-abuabu latar-putih">
+											<img alt="produk" src="images/anekabolu1.png" />
+											<h5 class="tebal">Wedding Cake</h5>
+											<p class="kecil">Nikmati kelembutan dan kelezatan Aneka Bolu kami, dibuat dengan bahan-bahan berkualitas tinggi dan resep tradisional yang terjaga. 
+												Cocok untuk menemani waktu santai Anda atau sebagai hidangan istimewa di setiap acara.</p>
+											<hr />
+											<div class="group">
+												<div class="kol1">
+													<a class="btn1 btn-hijau btn-kecil"
+														href="https://api.whatsapp.com/send?phone=6285624378677&amp;text=Hallo%20admin,%20saya%20ingin%20pesan%20Wedding%20Cake">
+														<i class="fa fa-whatsapp"></i> Beli Via Whatsapp
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
-							<script>
-								const donatCustomImages = ["images/donatcustomfix.png"];
-								const kueUlangTahunImage = ["images/kueulangtahun.fix.png"];
-								const kueNampanImages = ["images/bentocake.jpg"];
-								const rotiRafaImages = ["images/anekarotirafa.jpg"];
-								const snackBoxImages = ["images/anekasnackbox1.png"];
-
-								function rotateImage(elementId, imageArray) {
-									let index = 0;
-									setInterval(() => {
-										document.getElementById(elementId).src = imageArray[index];
-										index = (index + 1) % imageArray.length;
-									}, 3000);
-								}
-
-								rotateImage('donatCustomImage', donatCustomImages);
-								rotateImage('kueUlangTahunImage', kueUlangTahunImages);
-								rotateImage('kueNampanImage', kueNampanImages);
-								rotateImage('rotiRafaImage', rotiRafaImages);
-								rotateImage('snackBoxImage', snackBoxImages);
-							</script>
+						
 						</div>
 					</div>
 					<!-- AKHIR PRODUK -->
